@@ -208,9 +208,14 @@ img:hover,
     position: absolute;
     top: 15%;
     right: 65px;
+    @media (max-width: 425px) {
+        width: 150px;
+        right: 20px;
+    }
 }
 
 .inputSub:focus+.spanSub {
+    position: absolute;
     width: 180px;
     border-bottom: 2px solid rgb(250, 3, 106);
     margin-top: -5px;
